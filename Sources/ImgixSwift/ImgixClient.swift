@@ -8,35 +8,37 @@
 
 import Foundation
 
-@objc open class ImgixClient: NSObject {
-    @objc static public let VERSION = "0.4.3"
+open class ImgixClient {
 
-    @objc public let host: String
-    @objc open var useHttps: Bool = true
-    @objc open var secureUrlToken: String? = nil
-    @objc open var includeLibraryParam: Bool = true
+    static public let VERSION = "0.4.3"
 
-    @objc public init(host: String) {
+    public let host: String
+
+    open var useHttps: Bool = true
+    open var secureUrlToken: String? = nil
+    open var includeLibraryParam: Bool = true
+
+    public init(host: String) {
         self.host = host
     }
 
-    @objc public init(host: String, useHttps: Bool) {
+    public init(host: String, useHttps: Bool) {
         self.host = host
         self.useHttps = useHttps
     }
 
-    @objc public init(host: String, useHttps: Bool, secureUrlToken: String) {
+    public init(host: String, useHttps: Bool, secureUrlToken: String) {
         self.host = host
         self.useHttps = useHttps
         self.secureUrlToken = secureUrlToken
     }
 
-    @objc public init(host: String, secureUrlToken: String) {
+    public init(host: String, secureUrlToken: String) {
         self.host = host
         self.secureUrlToken = secureUrlToken
     }
 
-    @objc open func buildUrl(_ path: String, params: NSDictionary) -> URL {
+    open func buildUrl(_ path: String, params: NSDictionary) -> URL {
         let path = sanitizePath(path)
 
         var urlComponents = URLComponents.init()
@@ -59,11 +61,11 @@ import Foundation
         return urlComponents.url!
     }
 
-    @objc open func buildUrl(_ path: String) -> URL {
+    open func buildUrl(_ path: String) -> URL {
         return buildUrl(path, params: NSDictionary())
     }
 
-    @objc open func reconstruct(originalURL: URL, params: NSDictionary) -> URL {
+    open func reconstruct(originalURL: URL, params: NSDictionary) -> URL {
         let originalURLComponents = URLComponents(url: originalURL, resolvingAgainstBaseURL: false)
         let mergedParams = NSMutableDictionary()
 
@@ -86,11 +88,11 @@ import Foundation
         return outputURLComponents.url!
     }
 
-    @objc open func reconstruct(originalURL: URL) -> URL {
+    open func reconstruct(originalURL: URL) -> URL {
         return reconstruct(originalURL: originalURL, params: [:])
     }
 
-    fileprivate func sanitizePath(_ path: String) -> String {
+    private func sanitizePath(_ path: String) -> String {
         var path = path
 
         if path.hasPrefix("http://") || path.hasPrefix("https://") {
@@ -104,7 +106,7 @@ import Foundation
         return path
     }
 
-    fileprivate func encodeQueryItems(_ queryItems: [URLQueryItem]) -> String {
+    private func encodeQueryItems(_ queryItems: [URLQueryItem]) -> String {
         var queryPairs = [String]()
 
         for queryItem in queryItems {
@@ -116,7 +118,7 @@ import Foundation
         return queryPairs.joined(separator: "&")
     }
 
-    fileprivate func buildParams(_ params: NSDictionary) -> [URLQueryItem] {
+    private func buildParams(_ params: NSDictionary) -> [URLQueryItem] {
         var queryItems = [URLQueryItem]()
         let queryParams: NSMutableDictionary = NSMutableDictionary.init(dictionary: params)
 
@@ -143,7 +145,7 @@ import Foundation
         return queryItems
     }
 
-    fileprivate func signatureForPathAndQueryString(_ path: String, queryString: String) -> URLQueryItem {
+    private func signatureForPathAndQueryString(_ path: String, queryString: String) -> URLQueryItem {
         var signatureBase = secureUrlToken! + path
 
         if !queryString.isEmpty {
