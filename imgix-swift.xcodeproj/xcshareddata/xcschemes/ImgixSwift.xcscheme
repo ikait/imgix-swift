@@ -42,8 +42,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F06ECFA1D2C8ABA001CEC88"
-               BuildableName = "ImgixSwiftTests.xctest"
-               BlueprintName = "ImgixSwiftTests"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
                ReferencedContainer = "container:imgix-swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
