@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8F06ECBE1D2C8828001CEC88"
+               BlueprintIdentifier = "8F06ECA41D2C8805001CEC88"
                BuildableName = "ImgixSwift.framework"
-               BlueprintName = "ImgixSwift-tvOS"
+               BlueprintName = "ImgixSwift"
                ReferencedContainer = "container:imgix-swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8F06ECA41D2C8805001CEC88"
+            BuildableName = "ImgixSwift.framework"
+            BlueprintName = "ImgixSwift"
+            ReferencedContainer = "container:imgix-swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8F06ED091D2C8AD2001CEC88"
-               BuildableName = "ImgixSwiftTests-tvOS.xctest"
-               BlueprintName = "ImgixSwiftTests-tvOS"
+               BlueprintIdentifier = "8F06ECFA1D2C8ABA001CEC88"
+               BuildableName = "ImgixSwiftTests.xctest"
+               BlueprintName = "ImgixSwiftTests"
                ReferencedContainer = "container:imgix-swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F06ECBE1D2C8828001CEC88"
-            BuildableName = "ImgixSwift.framework"
-            BlueprintName = "ImgixSwift-tvOS"
-            ReferencedContainer = "container:imgix-swift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,14 +62,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F06ECBE1D2C8828001CEC88"
+            BlueprintIdentifier = "8F06ECA41D2C8805001CEC88"
             BuildableName = "ImgixSwift.framework"
-            BlueprintName = "ImgixSwift-tvOS"
+            BlueprintName = "ImgixSwift"
             ReferencedContainer = "container:imgix-swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -82,9 +78,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F06ECBE1D2C8828001CEC88"
+            BlueprintIdentifier = "8F06ECA41D2C8805001CEC88"
             BuildableName = "ImgixSwift.framework"
-            BlueprintName = "ImgixSwift-tvOS"
+            BlueprintName = "ImgixSwift"
             ReferencedContainer = "container:imgix-swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

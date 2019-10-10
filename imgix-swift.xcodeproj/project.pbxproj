@@ -7,47 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F06ECF11D2C8AA8001CEC88 /* ImgixSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06ECCC1D2C8832001CEC88 /* ImgixSwift.framework */; };
 		8F06ED001D2C8ABA001CEC88 /* ImgixSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06ECA51D2C8805001CEC88 /* ImgixSwift.framework */; };
-		8F06ED0F1D2C8AD2001CEC88 /* ImgixSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06ECBF1D2C8828001CEC88 /* ImgixSwift.framework */; };
-		8F06ED151D2C8AE1001CEC88 /* BuildUrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42EA01D2B38AC002BE7D4 /* BuildUrlTests.swift */; };
-		8F06ED161D2C8AE1001CEC88 /* InitializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42E901D2B312C002BE7D4 /* InitializationTests.swift */; };
-		8F06ED171D2C8AE1001CEC88 /* SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9052181D2C34A000B0C1B6 /* SignatureTests.swift */; };
-		8F06ED181D2C8AE1001CEC88 /* WebProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90521A1D2C3D0B00B0C1B6 /* WebProxyTests.swift */; };
 		8F06ED191D2C8AE1001CEC88 /* BuildUrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42EA01D2B38AC002BE7D4 /* BuildUrlTests.swift */; };
 		8F06ED1A1D2C8AE1001CEC88 /* InitializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42E901D2B312C002BE7D4 /* InitializationTests.swift */; };
 		8F06ED1B1D2C8AE1001CEC88 /* SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9052181D2C34A000B0C1B6 /* SignatureTests.swift */; };
 		8F06ED1C1D2C8AE1001CEC88 /* WebProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90521A1D2C3D0B00B0C1B6 /* WebProxyTests.swift */; };
-		8F06ED1D1D2C8AE1001CEC88 /* BuildUrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42EA01D2B38AC002BE7D4 /* BuildUrlTests.swift */; };
-		8F06ED1E1D2C8AE1001CEC88 /* InitializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF42E901D2B312C002BE7D4 /* InitializationTests.swift */; };
-		8F06ED1F1D2C8AE1001CEC88 /* SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9052181D2C34A000B0C1B6 /* SignatureTests.swift */; };
-		8F06ED201D2C8AE1001CEC88 /* WebProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90521A1D2C3D0B00B0C1B6 /* WebProxyTests.swift */; };
 		8F12BC2E1D2EF2FE00B56C8A /* String+ImgixSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */; };
-		8F12BC2F1D2EF2FE00B56C8A /* String+ImgixSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */; };
-		8F12BC301D2EF2FE00B56C8A /* String+ImgixSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */; };
 		8F7467631D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */; };
-		8F7467641D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */; };
-		8F7467651D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */; };
 		8F7467671D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7467681D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F7467691D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F74676B1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F74676C1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F74676D1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F91A77B1D2C94EB0010384D /* ImgixClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A7751D2C94EB0010384D /* ImgixClient.swift */; };
-		8F91A77C1D2C94EB0010384D /* ImgixClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A7751D2C94EB0010384D /* ImgixClient.swift */; };
-		8F91A77D1D2C94EB0010384D /* ImgixClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A7751D2C94EB0010384D /* ImgixClient.swift */; };
-		8FB9ABCD1DCC037B00D2FD6B /* ReconstructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9ABCC1DCC037B00D2FD6B /* ReconstructTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F06ECF21D2C8AA8001CEC88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F82BE511D25EDDD00551F76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F06ECCB1D2C8832001CEC88;
-			remoteInfo = "ImgixSwift-macOS";
-		};
 		8F06ED011D2C8ABA001CEC88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8F82BE511D25EDDD00551F76 /* Project object */;
@@ -55,22 +27,11 @@
 			remoteGlobalIDString = 8F06ECA41D2C8805001CEC88;
 			remoteInfo = "ImgixSwift-iOS";
 		};
-		8F06ED101D2C8AD2001CEC88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F82BE511D25EDDD00551F76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F06ECBE1D2C8828001CEC88;
-			remoteInfo = "ImgixSwift-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8F06ECA51D2C8805001CEC88 /* ImgixSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgixSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06ECBF1D2C8828001CEC88 /* ImgixSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgixSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06ECCC1D2C8832001CEC88 /* ImgixSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgixSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06ECEC1D2C8AA8001CEC88 /* ImgixSwiftTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImgixSwiftTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImgixSwiftTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06ED0A1D2C8AD2001CEC88 /* ImgixSwiftTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImgixSwiftTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgixSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ImgixSwift.swift"; path = "Sources/String+ImgixSwift.swift"; sourceTree = "<group>"; };
 		8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ImgixSwiftMd5.m"; path = "Sources/NSString+ImgixSwiftMd5.m"; sourceTree = "<group>"; };
 		8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ImgixSwiftMd5.h"; path = "Sources/NSString+ImgixSwiftMd5.h"; sourceTree = "<group>"; };
@@ -94,41 +55,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F06ECBB1D2C8828001CEC88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECC81D2C8832001CEC88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECE91D2C8AA8001CEC88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F06ECF11D2C8AA8001CEC88 /* ImgixSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F06ECF81D2C8ABA001CEC88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F06ED001D2C8ABA001CEC88 /* ImgixSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ED071D2C8AD2001CEC88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F06ED0F1D2C8AD2001CEC88 /* ImgixSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				8F06ECA51D2C8805001CEC88 /* ImgixSwift.framework */,
-				8F06ECBF1D2C8828001CEC88 /* ImgixSwift.framework */,
-				8F06ECCC1D2C8832001CEC88 /* ImgixSwift.framework */,
-				8F06ECEC1D2C8AA8001CEC88 /* ImgixSwiftTests-macOS.xctest */,
-				8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests-iOS.xctest */,
-				8F06ED0A1D2C8AD2001CEC88 /* ImgixSwiftTests-tvOS.xctest */,
+				8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,30 +123,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F06ECBC1D2C8828001CEC88 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F74676C1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h in Headers */,
-				8F7467681D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECC91D2C8832001CEC88 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F74676D1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h in Headers */,
-				8F7467691D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8F06ECA41D2C8805001CEC88 /* ImgixSwift-iOS */ = {
+		8F06ECA41D2C8805001CEC88 /* ImgixSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ECAA1D2C8805001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-iOS" */;
+			buildConfigurationList = 8F06ECAA1D2C8805001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift" */;
 			buildPhases = (
 				8F06ECA01D2C8805001CEC88 /* Sources */,
 				8F06ECA11D2C8805001CEC88 /* Frameworks */,
@@ -230,68 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = "ImgixSwift-iOS";
+			name = ImgixSwift;
 			productName = "ImgixSwift-iOS";
 			productReference = 8F06ECA51D2C8805001CEC88 /* ImgixSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8F06ECBE1D2C8828001CEC88 /* ImgixSwift-tvOS */ = {
+		8F06ECFA1D2C8ABA001CEC88 /* ImgixSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ECC41D2C8828001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-tvOS" */;
-			buildPhases = (
-				8F06ECBA1D2C8828001CEC88 /* Sources */,
-				8F06ECBB1D2C8828001CEC88 /* Frameworks */,
-				8F06ECBC1D2C8828001CEC88 /* Headers */,
-				8F06ECBD1D2C8828001CEC88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ImgixSwift-tvOS";
-			productName = "ImgixSwift-tvOS";
-			productReference = 8F06ECBF1D2C8828001CEC88 /* ImgixSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8F06ECCB1D2C8832001CEC88 /* ImgixSwift-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ECD11D2C8833001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-macOS" */;
-			buildPhases = (
-				8F06ECC71D2C8832001CEC88 /* Sources */,
-				8F06ECC81D2C8832001CEC88 /* Frameworks */,
-				8F06ECC91D2C8832001CEC88 /* Headers */,
-				8F06ECCA1D2C8832001CEC88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ImgixSwift-macOS";
-			productName = "ImgixSwift-macOS";
-			productReference = 8F06ECCC1D2C8832001CEC88 /* ImgixSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8F06ECEB1D2C8AA8001CEC88 /* ImgixSwiftTests-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ECF41D2C8AA8001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-macOS" */;
-			buildPhases = (
-				8F06ECE81D2C8AA8001CEC88 /* Sources */,
-				8F06ECE91D2C8AA8001CEC88 /* Frameworks */,
-				8F06ECEA1D2C8AA8001CEC88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F06ECF31D2C8AA8001CEC88 /* PBXTargetDependency */,
-			);
-			name = "ImgixSwiftTests-macOS";
-			productName = "ImgixSwiftTests-macOS";
-			productReference = 8F06ECEC1D2C8AA8001CEC88 /* ImgixSwiftTests-macOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8F06ECFA1D2C8ABA001CEC88 /* ImgixSwiftTests-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ED031D2C8ABA001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-iOS" */;
+			buildConfigurationList = 8F06ED031D2C8ABA001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests" */;
 			buildPhases = (
 				8F06ECF71D2C8ABA001CEC88 /* Sources */,
 				8F06ECF81D2C8ABA001CEC88 /* Frameworks */,
@@ -302,27 +157,9 @@
 			dependencies = (
 				8F06ED021D2C8ABA001CEC88 /* PBXTargetDependency */,
 			);
-			name = "ImgixSwiftTests-iOS";
+			name = ImgixSwiftTests;
 			productName = "ImgixSwiftTests-iOS";
-			productReference = 8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests-iOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8F06ED091D2C8AD2001CEC88 /* ImgixSwiftTests-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F06ED121D2C8AD2001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-tvOS" */;
-			buildPhases = (
-				8F06ED061D2C8AD2001CEC88 /* Sources */,
-				8F06ED071D2C8AD2001CEC88 /* Frameworks */,
-				8F06ED081D2C8AD2001CEC88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F06ED111D2C8AD2001CEC88 /* PBXTargetDependency */,
-			);
-			name = "ImgixSwiftTests-tvOS";
-			productName = "ImgixSwiftTests-tvOS";
-			productReference = 8F06ED0A1D2C8AD2001CEC88 /* ImgixSwiftTests-tvOS.xctest */;
+			productReference = 8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -338,25 +175,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0940;
 					};
-					8F06ECBE1D2C8828001CEC88 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
-					};
-					8F06ECCB1D2C8832001CEC88 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0940;
-					};
-					8F06ECEB1D2C8AA8001CEC88 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0940;
-					};
 					8F06ECFA1D2C8ABA001CEC88 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0940;
-					};
-					8F06ED091D2C8AD2001CEC88 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -365,6 +186,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8F82BE501D25EDDD00551F76;
@@ -372,12 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F06ECA41D2C8805001CEC88 /* ImgixSwift-iOS */,
-				8F06ECBE1D2C8828001CEC88 /* ImgixSwift-tvOS */,
-				8F06ECCB1D2C8832001CEC88 /* ImgixSwift-macOS */,
-				8F06ECEB1D2C8AA8001CEC88 /* ImgixSwiftTests-macOS */,
-				8F06ECFA1D2C8ABA001CEC88 /* ImgixSwiftTests-iOS */,
-				8F06ED091D2C8AD2001CEC88 /* ImgixSwiftTests-tvOS */,
+				8F06ECA41D2C8805001CEC88 /* ImgixSwift */,
+				8F06ECFA1D2C8ABA001CEC88 /* ImgixSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,35 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F06ECBD1D2C8828001CEC88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECCA1D2C8832001CEC88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECEA1D2C8AA8001CEC88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F06ECF91D2C8ABA001CEC88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ED081D2C8AD2001CEC88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,38 +228,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F06ECBA1D2C8828001CEC88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F91A77C1D2C94EB0010384D /* ImgixClient.swift in Sources */,
-				8F7467641D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m in Sources */,
-				8F12BC2F1D2EF2FE00B56C8A /* String+ImgixSwift.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECC71D2C8832001CEC88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F91A77D1D2C94EB0010384D /* ImgixClient.swift in Sources */,
-				8F7467651D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m in Sources */,
-				8F12BC301D2EF2FE00B56C8A /* String+ImgixSwift.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F06ECE81D2C8AA8001CEC88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F06ED171D2C8AE1001CEC88 /* SignatureTests.swift in Sources */,
-				8FB9ABCD1DCC037B00D2FD6B /* ReconstructTests.swift in Sources */,
-				8F06ED151D2C8AE1001CEC88 /* BuildUrlTests.swift in Sources */,
-				8F06ED161D2C8AE1001CEC88 /* InitializationTests.swift in Sources */,
-				8F06ED181D2C8AE1001CEC88 /* WebProxyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F06ECF71D2C8ABA001CEC88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,34 +239,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F06ED061D2C8AD2001CEC88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F06ED1F1D2C8AE1001CEC88 /* SignatureTests.swift in Sources */,
-				8F06ED1D1D2C8AE1001CEC88 /* BuildUrlTests.swift in Sources */,
-				8F06ED1E1D2C8AE1001CEC88 /* InitializationTests.swift in Sources */,
-				8F06ED201D2C8AE1001CEC88 /* WebProxyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F06ECF31D2C8AA8001CEC88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F06ECCB1D2C8832001CEC88 /* ImgixSwift-macOS */;
-			targetProxy = 8F06ECF21D2C8AA8001CEC88 /* PBXContainerItemProxy */;
-		};
 		8F06ED021D2C8ABA001CEC88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8F06ECA41D2C8805001CEC88 /* ImgixSwift-iOS */;
+			target = 8F06ECA41D2C8805001CEC88 /* ImgixSwift */;
 			targetProxy = 8F06ED011D2C8ABA001CEC88 /* PBXContainerItemProxy */;
-		};
-		8F06ED111D2C8AD2001CEC88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F06ECBE1D2C8828001CEC88 /* ImgixSwift-tvOS */;
-			targetProxy = 8F06ED101D2C8AD2001CEC88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -560,22 +297,25 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
 				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = iphoneos;
+				SDKROOT = "";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator watchos watchsimulator appletvos appletvsimulator";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -620,364 +360,24 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
 				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = iphoneos;
+				SDKROOT = "";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator watchos watchsimulator appletvos appletvsimulator";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F06ECC51D2C8828001CEC88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
-				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F06ECC61D2C8828001CEC88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
-				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F06ECD21D2C8833001CEC88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
-				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F06ECD31D2C8833001CEC88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
-				PRODUCT_NAME = ImgixSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME).h";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F06ECF51D2C8AA8001CEC88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ImgixSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.imgix.ImgixSwiftTests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		8F06ECF61D2C8AA8001CEC88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ImgixSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.imgix.ImgixSwiftTests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1072,95 +472,6 @@
 			};
 			name = Release;
 		};
-		8F06ED131D2C8AD2001CEC88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ImgixSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.imgix.ImgixSwiftTests-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		8F06ED141D2C8AD2001CEC88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ImgixSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.imgix.ImgixSwiftTests-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		8F82BE551D25EDDD00551F76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1243,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F06ECAA1D2C8805001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-iOS" */ = {
+		8F06ECAA1D2C8805001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F06ECAB1D2C8805001CEC88 /* Debug */,
@@ -1252,47 +563,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F06ECC41D2C8828001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F06ECC51D2C8828001CEC88 /* Debug */,
-				8F06ECC61D2C8828001CEC88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F06ECD11D2C8833001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwift-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F06ECD21D2C8833001CEC88 /* Debug */,
-				8F06ECD31D2C8833001CEC88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F06ECF41D2C8AA8001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F06ECF51D2C8AA8001CEC88 /* Debug */,
-				8F06ECF61D2C8AA8001CEC88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F06ED031D2C8ABA001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-iOS" */ = {
+		8F06ED031D2C8ABA001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F06ED041D2C8ABA001CEC88 /* Debug */,
 				8F06ED051D2C8ABA001CEC88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F06ED121D2C8AD2001CEC88 /* Build configuration list for PBXNativeTarget "ImgixSwiftTests-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F06ED131D2C8AD2001CEC88 /* Debug */,
-				8F06ED141D2C8AD2001CEC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
