@@ -32,15 +32,15 @@
 /* Begin PBXFileReference section */
 		8F06ECA51D2C8805001CEC88 /* ImgixSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgixSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F06ECFB1D2C8ABA001CEC88 /* ImgixSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgixSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ImgixSwift.swift"; path = "Sources/String+ImgixSwift.swift"; sourceTree = "<group>"; };
-		8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ImgixSwiftMd5.m"; path = "Sources/NSString+ImgixSwiftMd5.m"; sourceTree = "<group>"; };
-		8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ImgixSwiftMd5.h"; path = "Sources/NSString+ImgixSwiftMd5.h"; sourceTree = "<group>"; };
-		8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ImgixSwift-Umbrella-Header.h"; path = "Sources/ImgixSwift-Umbrella-Header.h"; sourceTree = "<group>"; };
-		8F74676F1D2CC15000E1CE15 /* ImgixSwift.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = ImgixSwift.modulemap; path = Sources/ImgixSwift.modulemap; sourceTree = "<group>"; };
+		8F12BC2D1D2EF2FE00B56C8A /* String+ImgixSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ImgixSwift.swift"; path = "ImgixSwift/String+ImgixSwift.swift"; sourceTree = "<group>"; };
+		8F7467621D2CBD0900E1CE15 /* NSString+ImgixSwiftMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ImgixSwiftMd5.m"; path = "ImgixSwift/NSString+ImgixSwiftMd5.m"; sourceTree = "<group>"; };
+		8F7467661D2CBD1A00E1CE15 /* NSString+ImgixSwiftMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ImgixSwiftMd5.h"; path = "ImgixSwift/NSString+ImgixSwiftMd5.h"; sourceTree = "<group>"; };
+		8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ImgixSwift-Umbrella-Header.h"; path = "ImgixSwift/ImgixSwift-Umbrella-Header.h"; sourceTree = "<group>"; };
+		8F74676F1D2CC15000E1CE15 /* ImgixSwift.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = ImgixSwift.modulemap; path = ImgixSwift/ImgixSwift.modulemap; sourceTree = "<group>"; };
 		8F9052181D2C34A000B0C1B6 /* SignatureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureTests.swift; sourceTree = "<group>"; };
 		8F90521A1D2C3D0B00B0C1B6 /* WebProxyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebProxyTests.swift; sourceTree = "<group>"; };
-		8F91A76E1D2C94CD0010384D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
-		8F91A7751D2C94EB0010384D /* ImgixClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImgixClient.swift; path = Sources/ImgixClient.swift; sourceTree = "<group>"; };
+		8F91A76E1D2C94CD0010384D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ImgixSwift/Info.plist; sourceTree = "<group>"; };
+		8F91A7751D2C94EB0010384D /* ImgixClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImgixClient.swift; path = ImgixSwift/ImgixClient.swift; sourceTree = "<group>"; };
 		8FB9ABCC1DCC037B00D2FD6B /* ReconstructTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReconstructTests.swift; sourceTree = "<group>"; };
 		8FF42E901D2B312C002BE7D4 /* InitializationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationTests.swift; sourceTree = "<group>"; };
 		8FF42E921D2B312C002BE7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				8F74676A1D2CBF9600E1CE15 /* ImgixSwift-Umbrella-Header.h */,
 				8F74676F1D2CC15000E1CE15 /* ImgixSwift.modulemap */,
 			);
-			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		8FF42E8F1D2B312C002BE7D4 /* ImgixSwiftTests */ = {
@@ -293,12 +293,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/ImgixSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
+				MODULEMAP_FILE = Sources/ImgixSwift/ImgixSwift.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
@@ -356,12 +356,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/ImgixSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = Sources/ImgixSwift.modulemap;
+				MODULEMAP_FILE = Sources/ImgixSwift/ImgixSwift.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imgix.ImgixSwift;
 				PRODUCT_NAME = ImgixSwift;
