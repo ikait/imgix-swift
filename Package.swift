@@ -4,43 +4,21 @@ import PackageDescription
 let package = Package(
     name: "ImgixSwift",
     platforms: [
-        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9_2)
+        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)
     ],
     products: [
-        .library(name: "ImgixSwift", targets: [
-            "ImgixSwift-iOS",
-            "ImgixSwift-tvOS",
-            "ImgixSwift-macOS"
-        ]),
+        .library(name: "ImgixSwift", targets: ["ImgixSwift"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "ImgixSwift-iOS",
-            dependencies: [],
-            exclude: []
-        ),
-        .target(
-            name: "ImgixSwift-tvOS",
-            dependencies: [],
-            exclude: []
-        ),
-        .target(
-            name: "ImgixSwift-macOS",
+            name: "ImgixSwift",
             dependencies: [],
             exclude: []
         ),
         .testTarget(
-            name: "ImgixSwiftTests-iOS",
-            dependencies: ["ImgixSwift-iOS"]
-        ),
-        .testTarget(
-            name: "ImgixSwiftTests-tvOS",
-            dependencies: ["ImgixSwift-tvOS"]
-        ),
-        .testTarget(
-            name: "ImgixSwiftTests-macOS",
-            dependencies: ["ImgixSwift-macOS"]
+            name: "ImgixSwiftTests",
+            dependencies: ["ImgixSwift"]
         ),
     ],
     swiftLanguageVersions: [.v5]
